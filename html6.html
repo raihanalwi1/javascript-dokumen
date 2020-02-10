@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            var nama = ["alwi", "budi", "paul"];
+            console.log(nama);
+
+            alert("Silahkan Masukkan 3 nama binatang");
+
+            var namabinatang = [];
+            for(var i=0;i<=2;i++){
+                namabinatang[i] = prompt("Masukkan nama binatang" + "yang " +i);
+            }
+
+            var txtbinatang = "";
+            for(var j=0;j<=2;j++){
+                txtbinatang +=(namabinatang[j] + ",");
+            }
+            alert("Binatang yang anda suka  antara lain " + txtbinatang + "dll");
+        </script>
+    </head>
+</html>
